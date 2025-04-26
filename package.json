@@ -1,0 +1,65 @@
+{
+  "name": "appever",
+  "description": "Appever - React Js App Landing Template",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.111",
+    "@types/react": "^18.3.9",
+    "@types/react-dom": "^18.3.0",
+    "animate.css": "^4.1.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "react": "^18.3.1",
+    "react-18-image-lightbox": "^5.1.4",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-modal-video": "^2.0.2",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.9.0",
+    "react-type-animation": "^3.2.0",
+    "react-wow": "^1.0.0",
+    "tailwindcss": "^3.4.13",
+    "tiny-slider-react": "^0.5.7",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "wowjs": "^1.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-modal-video": "^1.2.3",
+    "@types/react-scroll": "^1.8.10",
+    "@types/react-wow": "^1.0.6",
+    "@types/tiny-slider-react": "^0.3.8"
+  }
+}
