@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {Link as Link1} from 'react-scroll'
 
-import logoDark from '../assets/images/logo-dark.png'
-import logoLight from '../assets/images/logo-light.png'
+import logoDark from '../assets/images/logo_light.png'
+import logoLight from '../assets/images/logo_light.png'
 import appstore from '../assets/images/appstore.png'
 import playstore from '../assets/images/playstore.png'
 
@@ -32,8 +32,8 @@ export default function Navbar({navLight, playBtn, bgLight, navCenter} : {navLig
             <div className="container relative flex flex-wrap items-center justify-between">
                 {!navLight && 
                     <Link className="navbar-brand md:me-8" to="/">
-                        <img src={logoDark} className="h-5 inline-block dark:hidden" alt=""/>
-                        <img src={logoLight} className="h-5 hidden dark:inline-block" alt=""/>
+                        <img src={logoDark} className="h-10 inline-block dark:hidden" alt=""/>
+                        <img src={logoLight} className="h-10 hidden dark:inline-block" alt=""/>
                     </Link>
                 }
                 {navLight && 
@@ -47,16 +47,16 @@ export default function Navbar({navLight, playBtn, bgLight, navCenter} : {navLig
                 }
 
                 <div className="nav-icons flex items-center lg_992:order-2 md:ms-6">
-                    {!playBtn && 
+                    {/* {!playBtn && 
                         <ul className="list-none menu-social mb-0">
                             <li className="inline">
-                                <Link to="" className="size-8 inline-flex items-center justify-center rounded-full align-middle bg-red-500/10 hover:bg-red-500 text-red-500 hover:text-white"><FiUser className="size-4"/></Link>
+                                <Link to="" className="size-8 inline-flex items-center justify-center rounded-full align-middle bg-orange-500/10 hover:bg-orange-500 text-orange-500 hover:text-white"><FiUser className="size-4"/></Link>
                             </li>
                             <li className="inline">
-                                <Link to="" className="h-8 px-4 text-[12px] tracking-wider inline-flex items-center justify-center font-medium rounded-full bg-red-500 text-white uppercase">Signup</Link>
+                                <Link to="" className="h-8 px-4 text-[12px] tracking-wider inline-flex items-center justify-center font-medium rounded-full bg-orange-500 text-white uppercase">Signup</Link>
                             </li>
                         </ul>
-                    }
+                    } */}
                     {playBtn && 
                         <ul className="list-none menu-social mb-0">
                             <li className="inline">
@@ -91,9 +91,9 @@ export default function Navbar({navLight, playBtn, bgLight, navCenter} : {navLig
                         <li className="nav-item ms-0">
                             <Link1 className="nav-link" activeClass="active" spy={true} smooth={true} duration={500} to="download">Download</Link1>
                         </li>
-                        <li className="nav-item ms-0">
+                        {/* <li className="nav-item ms-0">
                             <Link1 className="nav-link" activeClass="active" spy={true} smooth={true} duration={500} to="reviews">Reviews</Link1>
-                        </li>
+                        </li> */}
                         <li className="nav-item ms-0">
                             <Link1 className="nav-link" activeClass="active" spy={true} smooth={true} duration={500} to="contact">Contact us</Link1>
                         </li>

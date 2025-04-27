@@ -1,12 +1,17 @@
 
-import phone1 from '../assets/images/phone/1.png'
-import phone2 from '../assets/images/phone/2.png'
-import phone3 from '../assets/images/phone/3.png'
-import phone4 from '../assets/images/phone/4.png'
-import phone5 from '../assets/images/phone/5.png'
-import phone6 from '../assets/images/phone/6.png'
+import phone1 from '../assets/images/phone/app1-portrait.png'
+import phone2 from '../assets/images/phone/app2-portrait.png'
+import phone3 from '../assets/images/phone/app3-portrait.png'
+import phone4 from '../assets/images/phone/app4-portrait.png'
+import phone5 from '../assets/images/phone/app5-portrait.png'
+import phone6 from '../assets/images/phone/app6-portrait.png'
 import phone7 from '../assets/images/phone/7.png'
 import phone8 from '../assets/images/phone/8.png'
+
+import real_time from '../assets/images/real_time_alerts.avif'
+import sleep_detection from '../assets/images/sleep_detection.avif' 
+import ai_enchanced from '../assets/images/ai.avif'
+import asset  from '../assets/images/asset_light.avif'
 
 import client1 from '../assets/images/client/01.jpg'
 import client2 from '../assets/images/client/02.jpg'
@@ -27,26 +32,26 @@ import { FiDatabase, FiEye, FiFeather, FiHeart, FiMaximize, FiMonitor, FiNavigat
 export const feature = [
     {
         icon:FiMaximize,
-        title:'Fully functional',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        title:'Real-time alerts',
+        desc:'Drivers receive real-time alerts in their local language, enabling immediate correction of driving behavior.',
         active:true
     },
     {
         icon:FiPieChart,
-        title:'Secure Data',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        title:'Sleep detection',
+        desc:'The app detects signs of driver fatigue and issues alerts to prevent sleep-induced accidents.',
         active:false
     },
     {
         icon:FiNavigation2,
-        title:'Track Location',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        title:'AI-enhanced driving analysis',
+        desc:'Utilizes advanced AI for precise and effective feedback, enhancing driver safety and performance.',
         active:true
     },
     {
         icon:FiDatabase,
-        title:'Data Analyse',
-        desc:'The phrasal sequence of the is now so that many campaign and benefit',
+        title:'Asset light',
+        desc:"The app's easy setup facilitates tracking of both owned and market fleet vehicles.",
         active:false
     },
 ]
@@ -87,7 +92,7 @@ export const feature3 = [
 ]
 
 export const screenshotImg = [
-    phone1, phone2, phone3, phone4, phone5, phone6, phone7, phone8
+    phone1, phone2, phone3, phone4, phone5, phone6,
 ]
 
 export const faq = [

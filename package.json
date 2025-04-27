@@ -26,6 +26,7 @@
     "react-scroll": "^1.9.0",
     "react-type-animation": "^3.2.0",
     "react-wow": "^1.0.0",
+    "sass": "^1.87.0",
     "tailwindcss": "^3.4.13",
     "tiny-slider-react": "^0.5.7",
     "typescript": "^4.9.5",

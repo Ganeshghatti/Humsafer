@@ -22,6 +22,6 @@ export default function ScrollToTop() {
     }
 
   return (
-    <Link to="#" onClick={() => scrollToTop()} id="back-to-top" className="back-to-top fixed  text-lg rounded-full z-10 bottom-5 end-5 h-9 w-9 text-center bg-red-500 text-white leading-9" style={{display: scrollTop ? 'block' : 'none'}}><i className="mdi mdi-arrow-up"></i></Link>
+    <Link to="#" onClick={() => scrollToTop()} id="back-to-top" className="back-to-top fixed  text-lg rounded-full z-10 bottom-5 end-5 h-9 w-9 text-center bg-orange-500 text-white leading-9" style={{display: scrollTop ? 'block' : 'none'}}><i className="mdi mdi-arrow-up"></i></Link>
   )
 }
