@@ -17,7 +17,7 @@ export default function Footer() {
 
                     <div className="md:col-span-5 md:mt-0 mt-8">
                         <div className="text-center">
-                            <p className="text-gray-400">© {new Date().getFullYear()} Appever. Design & Develop with <i className="mdi mdi-heart text-orange-700"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                            {/* <p className="text-gray-400">© {new Date().getFullYear()} Appever. Design & Develop with <i className="mdi mdi-heart text-orange-700"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p> */}
                         </div>
                     </div>
 

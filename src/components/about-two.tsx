@@ -14,7 +14,7 @@ export default function AboutTwo() {
 
             <div className="lg:col-span-7 md:col-span-6 md:order-1 order-2">
                 <div className="lg:me-10">
-                    <h6 className="text-orange-500 uppercase text-sm font-bold tracking-wider mb-3">Elegant Design</h6>
+                    {/* <h6 className="text-orange-500 uppercase text-sm font-bold tracking-wider mb-3">Elegant Design</h6> */}
                     <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Share your photos with <br/> friends easily</h4>
                     <p className="text-slate-400 max-w-xl">Unleash the power of our platform with a multitude of powerful features, empowering you to achieve your goals.</p>
 
@@ -24,9 +24,9 @@ export default function AboutTwo() {
                         <li className="mb-1 flex ms-0"><i className="mdi mdi-check text-orange-500 text-xl me-2"></i> Create your own skin to match your brand</li>
                     </ul>
 
-                    <div className="mt-6">
+                    {/* <div className="mt-6">
                         <Link to="" className="hover:text-orange-500 dark:hover:text-orange-500 after:bg-orange-500 dark:text-white transition duration-500 font-medium">Learn More <i className="mdi mdi-arrow-right align-middle"></i></Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

@@ -164,5 +164,13 @@ export const clientData = [
 ]
 
 export const companyData = [
-    company1,company2,company3,company4,company5,company6
+    
+    "https://framerusercontent.com/images/E4Fwp6SBMO2E20k1qjLqZgKWts0.png?scale-down-to=1024",
+    "https://framerusercontent.com/images/RrfK61B4kO8NJW5J3Woe2OOM.png?scale-down-to=1024",
+    "https://framerusercontent.com/images/5qzonwEy03yDZ5pA2HFJzIdGco.png?scale-down-to=1024",
+    "https://framerusercontent.com/images/BCsX6u1PwMw2SNnLTTn44v5niMM.png?scale-down-to=1024",
+    "https://framerusercontent.com/images/DnzeVNRDQ4ohphCoYlvN4HWc.png?scale-down-to=1024",
+    "https://framerusercontent.com/images/XZwmKnpd7Jv4XCKE5FPfl95AKMI.png?scale-down-to=1024",
+    "https://framerusercontent.com/images/s6m6oaZUmSZCwO2vbhTdnb0FM.png?scale-down-to=1024"
+
 ]

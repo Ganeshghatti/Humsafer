@@ -7,9 +7,7 @@ import bg from "../assets/images/bg1.png";
 import phone from "../assets/images/phone/app1-portrait.png";
 import play from "../assets/images/play.png";
 
-import AboutOne from "../components/about-one";
 import AboutTwo from "../components/about-two";
-import Client from "../components/client";
 import Contact from "../components/contact";
 import Download from "../components/download";
 import Faq from "../components/faq";
@@ -36,9 +34,9 @@ export default function IndexOne() {
         <div className="container relative">
           <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-6 gap-[30px] relative">
             <div className="md:me-6">
-              <h6 className="text-oranage-500 uppercase text-sm font-bold tracking-wider mb-3">
+              {/* <h6 className="text-oranage-500 uppercase text-sm font-bold tracking-wider mb-3">
                 App Showcase
-              </h6>
+              </h6> */}
               <h4 className="font-bold lg:leading-normal leading-normal text-[42px] lg:text-[54px] mb-5">
                 Driving the future of road safety with <span className="text-orange-500">HumSafer</span>
               </h4>

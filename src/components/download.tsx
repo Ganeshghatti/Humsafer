@@ -19,12 +19,12 @@ export default function Download() {
 
                 <div className="lg:col-span-7 md:col-span-6">
                     <div className="lg:ms-10">
-                        <h6 className="text-orange-500 uppercase text-sm font-bold tracking-wider mb-3">Mobile Apps</h6>
+                        <h6 className="text-orange-500 uppercase text-sm font-bold tracking-wider mb-3">Mobile App</h6>
                         <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Available for your <br/> Smartphones</h4>
                         <p className="text-slate-400 max-w-xl mb-0">Unleash the power of our platform with a multitude of powerful features, empowering you to achieve your goals.</p>
                         <div className="my-6">
                             <Link to="#"><img src={app} className="h-12 inline-block m-1" alt=""/></Link>
-                            <Link to="#"><img src={play} className="h-12 inline-block m-1" alt=""/></Link>
+                            <Link to="https://play.google.com/store/apps/details?id=in.goodmind.humsafer"><img src={play} className="h-12 inline-block m-1" alt=""/></Link>
                         </div>
 
                         <div className="inline-block">
@@ -32,7 +32,7 @@ export default function Download() {
                                 <FiSmartphone className="me-2 text-orange-500 size-10"/>
                                 <div className="content">
                                     <h6 className="text-base font-medium">Install app now on your cellphones</h6>
-                                    <Link to="#" className="hover:text-orange-500 dark:hover:text-orange-500 after:bg-orange-500 dark:text-white transition duration-500 font-medium">Install Now <i className="mdi mdi-arrow-right"></i></Link> 
+                                    <Link to="https://play.google.com/store/apps/details?id=in.goodmind.humsafer" className="hover:text-orange-500 dark:hover:text-orange-500 after:bg-orange-500 dark:text-white transition duration-500 font-medium">Install Now <i className="mdi mdi-arrow-right"></i></Link> 
                                 </div>
                             </div>
                         </div>

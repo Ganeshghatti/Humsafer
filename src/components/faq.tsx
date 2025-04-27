@@ -38,7 +38,7 @@ export default function Faq() {
                             channel="youtube"
                             youtube={{ mute: 0, autoplay: 0 }}
                             isOpen={isOpen}
-                            videoId="S_CGed6E610"
+                            videoId="YdgDQo5cxGU"
                             onClose={() => setOpen(false)} 
                         />
                     </div>
