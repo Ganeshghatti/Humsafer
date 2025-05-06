@@ -6,6 +6,7 @@ import IndexThree from './index/index-three';
 import IndexFour from './index/index-four';
 import IndexFive from './index/index-five';
 import IndexSix from './index/index-six';
+import Assistant from './pages/Assistant';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route path='/index-four' element={<IndexFour/>}/>
       <Route path='/index-five' element={<IndexFive/>}/>
       <Route path='/index-six' element={<IndexSix/>}/>
+      <Route path='/assistant' element={<Assistant/>}/>
     </Routes>
     </>
   );
