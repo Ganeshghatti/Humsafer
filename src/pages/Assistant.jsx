@@ -349,7 +349,7 @@ function Assistant() {
       setStatus("Generating voice...");
 
       const response = await axios.post(
-        'http://localhost:3001/api/tts',
+        'https://humsafer-21nh.vercel.app/api/tts',
         { text },
         {
           responseType: 'arraybuffer'
