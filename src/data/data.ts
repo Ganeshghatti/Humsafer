@@ -20,12 +20,12 @@ import client4 from '../assets/images/client/04.jpg'
 import client5 from '../assets/images/client/05.jpg'
 import client6 from '../assets/images/client/06.jpg'
 
-import company1 from '../assets/images/client/amazon.svg'
-import company2 from '../assets/images/client/google.svg'
-import company3 from '../assets/images/client/lenovo.svg'
-import company4 from '../assets/images/client/paypal.svg'
-import company5 from '../assets/images/client/shopify.svg'
-import company6 from '../assets/images/client/spotify.svg'
+// import company1 from '../assets/images/client/amazon.svg'
+// import company2 from '../assets/images/client/google.svg'
+// import company3 from '../assets/images/client/lenovo.svg'
+// import company4 from '../assets/images/client/paypal.svg'
+// import company5 from '../assets/images/client/shopify.svg'
+// import company6 from '../assets/images/client/spotify.svg'
 
 import { FiDatabase, FiEye, FiFeather, FiHeart, FiMaximize, FiMonitor, FiNavigation2, FiPieChart, FiSmartphone, FiUserCheck } from "react-icons/fi"
 
