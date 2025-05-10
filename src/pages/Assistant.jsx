@@ -206,7 +206,7 @@ function Assistant() {
         clearTimeout(silenceTimer);
       }
     };
-  }, [silenceTimer, processWithGroq]);
+  });
 
   // Start listening
   const startListening = () => {

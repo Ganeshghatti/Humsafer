@@ -8,11 +8,13 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const API_KEY = process.env.API_KEY;
-const VOICE_ID = "EXAVITQu4vr4xnSDxMaL"; // sarah
+const API_KEY = "sk_3de030fdc58c29957b889da185d45df5a099cac457a4edaa";
+const VOICE_ID = "yoZ06aMxZJJ28mfd3POQ"; // sam
 
 app.post("/api/tts", async (req, res) => {
   const { text } = req.body;
+  console.log("api ",API_KEY)
+  console.log("TEXT ",text)
 
   try {
     const response = await axios.post(
@@ -35,7 +37,12 @@ app.post("/api/tts", async (req, res) => {
     res.send(response.data);
     console.log("Success in converting")
   } catch (error) {
-    console.error("TTS Error:", error.response?.data || error.message);
+   console.error("TTS Error:", {
+  message: error.message,
+  status: error.response?.status,
+  data: error.response?.data?.toString('utf8'),
+  headers: error.response?.headers
+});
     res.status(500).send("TTS failed");
   }
 });
