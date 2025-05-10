@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 const API_KEY = process.env.API_KEY;
 const VOICE_ID = "EXAVITQu4vr4xnSDxMaL"; // sarah
 
-app.post("/tts", async (req, res) => {
+app.post("api/tts", async (req, res) => {
   const { text } = req.body;
 
   try {
