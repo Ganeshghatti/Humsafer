@@ -190,22 +190,23 @@ function Assistant() {
       console.error("Audio playback error");
       setStatus("Audio Error");
     };
-
+    const currentAudio = audioRef.current;
+    const currentRecognition = recognitionRef.current;
     // Clean up on unmount
     return () => {
       console.log("Cleaning up speech recognition");
-      if (recognitionRef.current) {
-        recognitionRef.current.stop();
+      if (currentRecognition) {
+        currentRecognition.stop();
       }
-      if (audioRef.current) {
-        audioRef.current.pause();
-        audioRef.current.src = "";
+      if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.src = "";
       }
       if (silenceTimer) {
         clearTimeout(silenceTimer);
       }
     };
-  }, [silenceTimer]);
+  }, [silenceTimer, processWithGroq]);
 
   // Start listening
   const startListening = () => {
