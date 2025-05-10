@@ -10,22 +10,22 @@ function Assistant() {
   const [transcript, setTranscript] = useState("");
   const [response, setResponse] = useState("");
   const [status, setStatus] = useState("Ready");
-  const [audioUrl, setAudioUrl] = useState(null);
+  // const [audioUrl, setAudioUrl] = useState(null);
   const [speed, setSpeed] = useState("");
   const [chatHistory, setChatHistory] = useState([]);
   const [silenceTimer, setSilenceTimer] = useState(null);
   const [textInput, setTextInput] = useState("");
   const [showHistory, setShowHistory] = useState(false);
-  const [weatherData, setWeatherData] = useState(null);
-  const [location, setLocation] = useState("");
+  // const [weatherData, setWeatherData] = useState(null);
+  // const [location, setLocation] = useState("");
 
   // Character limit for responses
   const MAX_RESPONSE_CHARS = 250;
 
   // API Keys
   const GROQ_API_KEY =  process.env.REACT_APP_GROQ_API_KEY;
-  const OPENWEATHER_API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY;
-  const HF_API_TOKEN = process.env.REACT_APP_HF_API_TOKEN;
+  // const OPENWEATHER_API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY;
+  // const HF_API_TOKEN = process.env.REACT_APP_HF_API_TOKEN;
 
   // Initialize Groq client
   const llm = new ChatGroq({
@@ -212,7 +212,7 @@ function Assistant() {
     console.log("Starting listening");
     setTranscript("");
     setResponse("");
-    setAudioUrl(null);
+    // setAudioUrl(null);
     if (recognitionRef.current) {
       recognitionRef.current.start();
     }
@@ -273,11 +273,11 @@ function Assistant() {
 
     try {
       // Prepare messages for the API including chat history
-      const messages = [
-        { role: "system", content: ASSISTANT_PERSONA },
-        ...chatHistory.slice(-6), // Keep last 6 messages for context
-        newUserMessage,
-      ];
+      // const messages = [
+      //   { role: "system", content: ASSISTANT_PERSONA },
+      //   ...chatHistory.slice(-6), // Keep last 6 messages for context
+      //   newUserMessage,
+      // ];
 
       // Call Groq API for text completion
       console.log("Calling Groq API...", userMessage);
@@ -426,7 +426,7 @@ function Assistant() {
     setChatHistory([]);
     setResponse("");
     setTranscript("");
-    setAudioUrl(null);
+    // setAudioUrl(null);
   };
 
   return (
@@ -437,7 +437,7 @@ function Assistant() {
         </header>
 
         <div className={`status-badge text-white py-1 px-3 rounded-full text-center mb-4 capitalize 
-          ${status .toLowerCase() .replace(/\s+/g, "-")}`}>
+          ${status.toLowerCase().replace(/\s+/g, "-")}`}>
             {status}
         </div>
 

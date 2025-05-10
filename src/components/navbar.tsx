@@ -7,7 +7,7 @@ import logoLight from '../assets/images/logo_light.png'
 import appstore from '../assets/images/appstore.png'
 import playstore from '../assets/images/playstore.png'
 
-import {FiUser} from 'react-icons/fi'
+// import {FiUser} from 'react-icons/fi'
 
 export default function Navbar({navLight, playBtn, bgLight, navCenter} : {navLight:boolean, playBtn:boolean, bgLight:boolean, navCenter:boolean}) {
     let [menu, setMenu] = useState<Boolean>(false);
